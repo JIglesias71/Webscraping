@@ -79,5 +79,3 @@ writer = pd.ExcelWriter('Website_pricing.xlsx', engine = 'xlsxwriter')
 df_Cibeira.to_excel(writer, sheet_name = 'Cibeira')
 df_Selectos.to_excel(writer, sheet_name = 'Selectos')
 writer.save()
-
-webdriver.__file__
